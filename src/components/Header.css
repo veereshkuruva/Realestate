@@ -1,0 +1,60 @@
+body{
+  background-color: rgb(142, 142, 63);
+}
+.header{
+    margin:0px 60px;
+    margin-left:70px;
+      margin-top: 20px;
+    
+   }
+   h4{
+     font-size: large;
+     color:blue;
+     
+   }
+   .list{
+     display: flex;
+     flex-direction: row;
+     list-style: none;   
+     row-gap: 0px;
+      justify-content:center;
+      background-color:burlywood;
+      
+     align-items: center;
+     
+   }
+   .list_names{
+     margin: 20px;
+     border: 2px solid white;
+   }
+   .btns{
+     width:auto;
+     height: 40px;
+     padding:10px;
+   border-radius: 10px;
+   margin: 20px;
+   }
+   button{
+       border: 1px solid orchid;
+       padding: 10px;
+       width: 80px;
+       height: 40px;
+    
+       
+   }
+   #btn1{
+     position:absolute;
+     right:200px;
+      top:40px;
+   }
+   #btn2{
+     position:absolute;
+     right:100px;
+      top:40px;
+      background-color: blue;
+      color: white;
+   }
+   .fav{
+    border-radius: 30px;
+    background-color: aqua;
+   }

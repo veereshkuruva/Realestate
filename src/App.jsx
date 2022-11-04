@@ -1,18 +1,31 @@
 import React from 'react'
+import FavPage from './components/FavPage'
 
-import './App.css'
-import Cards from './components/Cards'
-import Header from './components/Header'
+import MainPage from './components/MainComp/MainPage'
+import {
+  Routes,
+  Route,
+} from "react-router-dom";
+
 
 function App() {
   
-
   return (
+    <> 
+
     <div className="App">
-  
-     <Header/>
-     <Cards/>
+     
     </div>
+   
+       
+        <Routes>
+          <Route path='/' element={<MainPage/>}/>
+          <Route path='/fav' element={<FavPage/>}/>
+        </Routes>
+      
+   
+  
+    </>
   )
 }
 

@@ -1,0 +1,31 @@
+/* .grid-conta{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+} */
+.btn-btn{
+    margin-left: 10px;
+    border-radius: 30px;
+}
+.card-container{
+    /* display: flex; */
+    /* grid-template-columns: 1fr 1fr 1fr;
+      grid-gap:30px;
+      overflow: hidden; */
+    
+}
+.img-container img{
+    overflow: hidden;
+    height: 300px;
+}
+.pricespan{
+    position: absolute;
+    top:10px;
+    right:10px
+}
+.btn-btn{
+    width: 200px;
+    height: 50px;
+    background-color: blueviolet;
+    margin: 10px 20px;
+}
+
